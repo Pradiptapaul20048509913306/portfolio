@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color:rgb(235, 234, 240);
+    width: 100%;
+    height: auto;
+}
+.col-md-12{
+    display: flex;
+}
+.name{
+    padding-top: 50px; 
+    font-size: 1.6vw;
+    font-family: serif;
+}
+span{
+    color: rgb(251, 255, 0);
+}
+b{
+    font-size: 4vw;
+}
+.web{
+    font-size: 2.1vw;
+    font-family: serif;
+}
+.img{
+    width: 100%;
+    height:auto;
+    margin: auto;
+    margin-top: 17%;
+}
+.photo{
+    width: 85%;
+    height: 100%;
+    border-radius: 50%; box-shadow: 1px 2px 20px rgb(202, 238, 111); 
+}
+.Works{
+    font-size: 2vw;
+}
+
+.bolt{
+    font-size: 1.3vw;
+}
+.card-text{
+    font-size: 1.4vw;
+}
+
+#card{
+    justify-content: space-between;
+}
+#card {
+  height: 26vw;
+}
+.card-img{
+    width: 17vw;
+    height: 10vw;
+    margin: auto;
+}
+#card-2 {
+    height: 27vw;
+    width: 42vw;
+  }
+.card-img1{
+    width: 33vw;
+    height: 18vw;
+    margin: auto;   
+}
+  .git{
+    font-size: 2vw;
+    margin: auto;
+  }
+  .see{
+    text-decoration: none;
+    color: black;
+  }
+  .bollt{
+    font-size: 4vw;
+    width:85%;
+    margin: auto;
+  }
+  .para{
+    font-size: 2vw;
+  }
+ .box{
+
+   margin-left: 50px;
+   font-size: 2vw;
+   font-weight: 700;
+   color: rgb(3, 11, 254);
+ }
+ .talk{
+    width: 13%;
+    height: 100%;
+    background-color: rgb(251, 190, 6);
+    border: 2px solid rgb(251, 190, 6);
+    border-radius: 50%; box-shadow: 1px 2px 20px rgb(57, 57, 56);
+    border-radius: 20px;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: auto;
+
+ }
+ #talk{
+    margin-top: 20px;
+ }
+.Services{
+    font-size: 2vw;
+}
+.have{
+    font-size: 2vw;
+    margin: auto;
+}
+#have{
+    position: relative;
+    margin-top: 20px;
+}
+.let{
+    font-size: 4vw;
+    margin: auto;
+}
+#ul #li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 19px;
+    position: relative;
+    font-size: 2vw;
+}
+#li a{
+  color: black; 
+  font-size: 2vw;
+   font-weight: 700; 
+}
+#ul{
+    margin: auto;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.ul .li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 4px;
+    position: relative;
+    font-size: 1.5vw;
+}
+.ul{
+margin-left: 0px;
+}
+.li a{
+    color: #fff; 
+    font-size: 1.5vw;
+     
+}
+.pradipta{
+    font-size: 2vw;
+    color: #fff;
+}
+ .ass{
+    color: #fff;
+    font-size: 1.4vw;
+ }
+ #stay{
+    margin-top: 30px;
+ }
+.stay{
+    color: #fff;
+    font-size: 1.4vw;
+}
+.email{
+    color: #fff;
+}
+.input input{
+    width: 100%;
+}
+.never{
+    color: #fff;
+}
+.passwo{
+    color: #fff;
+}
+.input-box input{
+    width: 100%;
+}
+.chak{
+    color: #fff;
+}
+.Submit{
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    width: 10%;
+}
+.last-para{
+    color: #fff;
+    font-size: 1.4vw;
+    width: 550px;
+    margin: auto;
+    
+}
+@media screen and ( max-width:992px) {
+    #card-2 {
+        height: 27vw;
+        width: 35vw;
+      } 
+    
+}
+@media screen and ( max-width:769px) {
+    #card-2 {
+        height: 27vw;
+        width: 34vw;
+      } 
+    #card-col{
+        justify-content: space-between;
+    }
+}
+@media screen and ( max-width:650px) {
+    #card-2 {
+        height: 27vw;
+        width: 40vw;
+      } 
+    }
